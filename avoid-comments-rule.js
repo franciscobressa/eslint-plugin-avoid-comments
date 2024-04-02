@@ -14,11 +14,9 @@ module.exports = {
       const previousTokenOrComment = sourceCode.getTokenBefore(comment, {
         includeComments: true,
       });
-      const isLineBeforeEmpty = sourceCode.getText(comment, 2)[0].trim() === "";
 
       return (
         previousTokenOrComment &&
-        !isLineBeforeEmpty &&
         ["Block", "Line"].includes(previousTokenOrComment.type)
       );
     };

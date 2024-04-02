@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-avoid-comments",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint customized rule to prevent comments",
   "main": "avoid-comments-plugin",
   "repository": {
@@ -22,6 +22,14 @@
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "comment",
+    "comments",
+    "eslint-disable",
+    "eslint-disable-line",
+    "keywords",
+    "keyword",
+    "prefixes",
+    "prefix"
   ]
 }
