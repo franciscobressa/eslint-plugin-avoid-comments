@@ -1,6 +1,6 @@
 # ✨ eslint-plugin-avoid-comments
 
-Some comments cause unnecessary noise in the code, so this rule makes ESLint disallow comments that do not fit the proposals of pre-configured **keywords**.
+Some comments cause unnecessary noise in the code, so this rule makes ESLint disallow comments that do not fit the proposals of pre-configured **prefixes keywords**.
 
 ## Installation
 
