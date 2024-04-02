@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-avoid-comments",
+  "version": "0.0.1-alpha.0",
+  "description": "ESLint customized rule to prevent comments",
+  "main": "avoid-comments-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franciscobressa/eslint-rule-no-comments.git"
+  },
+  "author": "Francisco Bressa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscobressa/eslint-rule-no-comments/issues"
+  },
+  "homepage": "https://github.com/franciscobressa/eslint-rule-no-comments#readme",
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ]
+}
