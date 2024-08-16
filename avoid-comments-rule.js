@@ -5,7 +5,6 @@ module.exports = {
       description:
         "Comments are not allowed in this project as they can cause unnecessary noise or leak into production code. Check configuration to see the exceptions from this rule.",
     },
-    fixable: "code",
   },
   create(context) {
     const sourceCode = context.getSourceCode();
@@ -31,9 +30,6 @@ module.exports = {
     const reportNonAllowedComment = (comment, allowedKeywords) => {
       if (!isAllowedComment(comment, allowedKeywords)) {
         context.report({
-          fix(fixer) {
-            return fixer.remove(comment);
-          },
           loc: comment.loc,
           message: "Comments are not allowed",
         });
