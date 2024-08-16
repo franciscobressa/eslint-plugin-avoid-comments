@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-avoid-comments",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "ESLint customized rule to prevent comments",
   "main": "avoid-comments-plugin",
   "repository": {
