@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-avoid-comments",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint customized rule to prevent comments",
   "main": "avoid-comments-plugin",
   "repository": {
@@ -14,10 +14,10 @@
   },
   "homepage": "https://github.com/franciscobressa/eslint-rule-no-comments#readme",
   "peerDependencies": {
-    "eslint": ">=8.0.0"
+    "eslint": "^9.18.0"
   },
   "devDependencies": {
-    "eslint": "^8.36.0"
+    "eslint": "^9.18.0"
   },
   "keywords": [
     "eslint",
